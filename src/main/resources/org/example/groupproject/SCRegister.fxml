@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="429.0" prefWidth="514.0" style="-fx-background-color: #8DECB4;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.groupproject.SCRegister">
+    <children>
+        <Label layoutX="137.0" layoutY="37.0" text="Library Feedback System" textFill="#29814c">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Label>
+        <Label layoutX="62.0" layoutY="87.0" text="First Name" />
+        <TextField fx:id="surveyCreatorFName" layoutX="62.0" layoutY="105.0" prefHeight="26.0" prefWidth="190.0" />
+        <Label layoutX="62.0" layoutY="143.0" text="Last Name" />
+        <TextField fx:id="surveyCreatorLName" layoutX="62.0" layoutY="161.0" prefHeight="26.0" prefWidth="190.0" />
+        <Label layoutX="275.0" layoutY="87.0" text="Email" />
+        <TextField fx:id="surveyCreatorEmail" layoutX="273.0" layoutY="105.0" prefHeight="26.0" prefWidth="190.0" />
+        <Label layoutX="65.0" layoutY="270.0" text="Username" />
+        <Label layoutX="376.0" layoutY="206.0" text="Gender" />
+        <ChoiceBox fx:id="SCreatorGender" layoutX="376.0" layoutY="223.0" prefHeight="26.0" prefWidth="90.0" />
+        <TextField fx:id="surveyCreatorPhoneNumber" layoutX="62.0" layoutY="223.0" prefHeight="26.0" prefWidth="190.0" />
+        <Label layoutX="63.0" layoutY="205.0" text="Phone number" />
+        <TextField fx:id="surveyCreatorDepartment" layoutX="276.0" layoutY="223.0" prefHeight="26.0" prefWidth="89.0" />
+        <Label layoutX="277.0" layoutY="205.0" text="Faculty" />
+        <TextField fx:id="surveyCreatorUsername" layoutX="65.0" layoutY="288.0" prefHeight="26.0" prefWidth="190.0" />
+        <Label layoutX="278.0" layoutY="143.0" text="Password" />
+        <PasswordField fx:id="surveyCreatorPassword" layoutX="277.0" layoutY="161.0" prefHeight="26.0" prefWidth="190.0" />
+        <Label layoutX="276.0" layoutY="266.0" text="Confirm Password" />
+        <PasswordField fx:id="surveyCreatorConfirmPassword" layoutX="276.0" layoutY="288.0" prefHeight="26.0" prefWidth="190.0" />
+        <Button layoutX="231.0" layoutY="334.0" mnemonicParsing="false" onAction="#buttonForSurveyCreatorSignIn" style="-fx-background-color: #141E46;" text="Register" textFill="WHITE" />
+        <Label fx:id="userINFO" layoutX="221.0" layoutY="373.0" prefHeight="18.0" prefWidth="78.0" />
+    </children>
+</AnchorPane>

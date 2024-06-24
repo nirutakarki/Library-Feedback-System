@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="399.0" prefWidth="422.0" style=": #8DECB4;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.groupproject.SCLogin">
+    <children>
+        <Label layoutX="97.0" layoutY="26.0" text="Library Feedback System" textFill="#29814c">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Label>
+        <Label layoutX="148.0" layoutY="137.0" text="Login as Survey creator" />
+        <Label layoutX="93.0" layoutY="161.0" text="Email" />
+        <TextField fx:id="SurveyCreatorEmail" layoutX="93.0" layoutY="182.0" prefHeight="26.0" prefWidth="234.0" style="-fx-background-color: #8DECB4;" />
+        <Label layoutX="93.0" layoutY="219.0" text="Password" />
+        <PasswordField fx:id="SurveyCreatorPassword" layoutX="93.0" layoutY="239.0" prefHeight="26.0" prefWidth="234.0" style="-fx-background-color: #8DECB4;" />
+        <Label layoutX="234.0" layoutY="271.0" text="Forget Password?" />
+        <Button layoutX="188.0" layoutY="300.0" mnemonicParsing="false" onAction="#buttonForSurveyCreatorLogin" style="-fx-background-color: #141E46;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+        <Label layoutX="96.0" layoutY="346.0" text="Don't have an account?">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Label>
+        <Button layoutX="205.0" layoutY="342.0" mnemonicParsing="false" onAction="#buttonForSurveyCreatorSignUp" style="-fx-background-color: #141E46;" text="Register as Survey Creator" textFill="WHITE">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Button>
+        <Label fx:id="LoginINFO" layoutX="94.0" layoutY="271.0" prefHeight="26.0" prefWidth="123.0" />
+      <ImageView fitHeight="81.0" fitWidth="208.0" layoutX="133.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@88777f9cdbb8a7023ac873b5ad680923-removebg-preview.png" />
+         </image>
+      </ImageView>
+    </children>
+
+</AnchorPane>

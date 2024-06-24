@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="324.0" prefWidth="472.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.groupproject.Survey">
+    <children>
+        <Label layoutX="149.0" layoutY="77.0" prefHeight="35.0" prefWidth="173.0" text="Survey Creator" textFill="#29814c">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Label>
+        <Button layoutX="246.0" layoutY="145.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="132.0" style="-fx-background-color: #8DECB4;" text="View Survey">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+        <Button layoutX="94.0" layoutY="146.0" mnemonicParsing="false" onAction="#CreateSurvey" style="-fx-background-color: #8DECB4;" text="Create new survey">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+        <Label fx:id="userINFO" layoutX="191.0" layoutY="227.0" prefHeight="18.0" prefWidth="90.0" />
+    </children>
+</AnchorPane>

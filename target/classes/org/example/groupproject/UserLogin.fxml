@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="475.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.groupproject.UserLogin">
+    <children>
+        <Label layoutX="121.0" layoutY="23.0" text="Library Feedback System" textFill="#29814c">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Label>
+        <Label layoutX="187.0" layoutY="66.0" text="Welcome Back ;)" />
+        <Label layoutX="177.0" layoutY="87.0" text="login to get started" />
+        <Label layoutX="121.0" layoutY="122.0" text="Email" />
+        <TextField fx:id="UserSignUpEmail" layoutX="120.0" layoutY="146.0" prefHeight="26.0" prefWidth="234.0" style="-fx-background-color: #41b06e;" />
+        <Label layoutX="121.0" layoutY="190.0" text="Password" />
+        <PasswordField fx:id="UserSignUpPassword" layoutX="121.0" layoutY="213.0" prefHeight="26.0" prefWidth="234.0" style="-fx-background-color: #41b06e;" />
+        <Label layoutX="261.0" layoutY="251.0" text="Forget Password?" />
+        <Button layoutX="215.0" layoutY="276.0" mnemonicParsing="false" onAction="#buttonForUserLogin" style="-fx-background-color: #141E46;" text="Login" textFill="WHITE" />
+        <Label layoutX="142.0" layoutY="316.0" text="Don't have an account?">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Label>
+        <Button layoutX="254.0" layoutY="313.0" mnemonicParsing="false" onAction="#buttonForUserSignUp" style="-fx-background-color: #141E46;" text="Register as User" textFill="WHITE">
+            <font>
+                <Font size="10.0" />
+            </font>
+        </Button>
+        <Label fx:id="LoginINFO" layoutX="123.0" layoutY="250.0" prefHeight="26.0" prefWidth="131.0" />
+      <ImageView fitHeight="400.0" fitWidth="475.0" opacity="0.21" pickOnBounds="true">
+         <image>
+            <Image url="@4ecbca67ba0e5641aac8f1784416a773.jpg" />
+         </image>
+      </ImageView>
+    </children>
+
+
+</AnchorPane>

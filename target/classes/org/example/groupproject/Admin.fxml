@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="448.0" prefWidth="527.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.groupproject.AdminLogin">
+   <children>
+      <Label layoutX="143.0" layoutY="45.0" prefHeight="36.0" prefWidth="243.0" text="Library Feedback System" textFill="#29814c">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="210.0" layoutY="94.0" text="Login as Admin " />
+      <Label layoutX="142.0" layoutY="142.0" text="Email" />
+      <TextField fx:id="email" layoutX="140.0" layoutY="163.0" prefHeight="26.0" prefWidth="243.0" style="-fx-background-color: #41b06e;" />
+      <Label layoutX="142.0" layoutY="200.0" text="Password" />
+      <PasswordField fx:id="password" layoutX="140.0" layoutY="220.0" prefHeight="26.0" prefWidth="243.0" style="-fx-background-color: #41b06e;" />
+      <Label layoutX="289.0" layoutY="259.0" text="Forget Password?" />
+      <Button layoutX="247.0" layoutY="292.0" mnemonicParsing="false" onAction="#buttonForLogin" prefHeight="26.0" prefWidth="50.0" style="-fx-background-color: #141E46;" text="Login" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Label layoutX="148.0" layoutY="354.0" text="Don't have an account?">
+         <font>
+            <Font name="System Bold" size="10.0" />
+         </font>
+      </Label>
+      <Button layoutX="265.0" layoutY="348.0" mnemonicParsing="false" onAction="#buttonForAdminSignUp" prefHeight="22.0" prefWidth="114.0" style="-fx-background-color: #141E46;" text="Register as Admin" textFill="WHITE">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Label fx:id="LoginINFO" layoutX="141.0" layoutY="259.0" prefHeight="26.0" prefWidth="142.0" />
+      <ImageView fitHeight="448.0" fitWidth="527.0" layoutY="-1.0" opacity="0.28" pickOnBounds="true">
+         <image>
+            <Image url="@d8f02585199314095e0c738de7dbed02.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
